@@ -1,0 +1,19 @@
+*{
+	font-family: "Roboto", sans-serif;
+	font-size: 25px;
+	background-color: cornflowerblue;
+}
+
+div{
+	display: block;
+	text-align: center;
+	margin-top: 100px;
+} 
+
+img{
+	display: block;
+	height: 250px;
+	width: 250px;
+	margin: 0 auto 0 auto;
+	border-radius: 50%;
+}
