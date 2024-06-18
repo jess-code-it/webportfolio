@@ -1,0 +1,51 @@
+#div-3{
+	background-color: skyblue;
+	border: 2px solid block;
+	height: 200px;
+	width: 200px;
+	display: inline;
+}
+#div-4{
+	background-color: aquamarine;
+	border: 2px solid block;
+	height: 200px;
+	width: 200px;
+	display: inline;
+}
+#span-3{
+	background-color: gray;
+	border: 2px solid black;
+	display: block;
+	height: 200px;
+	width: 200px;
+}
+#span-4{
+	background-color: brown;
+	border: 2px solid black;
+	display: block;
+	height: 200px;
+	width: 200px;
+}
+
+.box{
+	background-color: red;
+	border: 1px solid black;
+	margin: 5px;
+}
+.fifty-percent{
+	width: 50%;
+}
+
+.one-hundred-pixels{
+	width: 100%;
+}
+.parent{
+	width:135;
+	border: 2px solid black;
+}
+.fifty-vw{
+width: 50vw;
+}
+.twenty-five-vh{
+	height: 25vh;
+}

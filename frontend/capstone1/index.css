@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+nav{
+	background: #B8513C !important;
+}
+
+nav a{
+	color: #FFFFFF !important;
+}
+
+#logo{
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+#landing{
+	background: linear-gradient(rgba(0,0,0,.30), rgba(0, 0, 0, .30)),url(./images/5728278.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+header h1{
+	font-size: 68px;
+	font-weight: 700;
+	line-height: 84px;
+}
+
+header h3{
+	font-size: 34px;
+	font-weight: 350;
+	line-height: 42px;
+}
+
+#landing-btn{
+	padding: 8px 24px 8px 24px;
+	border-radius: 50px;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+	background: #CA6F5D;
+}
+
+
+#project .project-card{
+	background: #B8513C;
+}
