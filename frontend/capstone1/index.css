@@ -7,8 +7,12 @@
 	font-style: normal;
 }
 
+body{
+	background: #1D1D1E;
+}
+
 nav{
-	background: #B8513C !important;
+	background: transparent; !important;
 }
 
 nav a{
@@ -21,16 +25,11 @@ nav a{
 	font-style: normal;
 }
 
-#landing{
-	background: linear-gradient(rgba(0,0,0,.30), rgba(0, 0, 0, .30)),url(./images/5728278.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
 
-}
 
 header h1{
-	font-size: 68px;
-	font-weight: 700;
+	font-size: 60px;
+	font-weight: 600;
 	line-height: 84px;
 }
 
@@ -41,17 +40,36 @@ header h3{
 }
 
 #landing-btn{
-	padding: 8px 24px 8px 24px;
+	padding: 14px 24px 14px 24px;
 	border-radius: 50px;
 	font-size: 16px;
-	font-weight: 300;
+	font-weight: 700;
 	line-height: 24px;
-	text-align: center;
-	color: #FFFFFF;
-	background: #CA6F5D;
 }
 
+.glass{
+	background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.37 );
+backdrop-filter: blur( 7.5px );
+-webkit-backdrop-filter: blur( 7.5px );
+border-radius: 10px;
+}
 
 #project .project-card{
 	background: #B8513C;
+}
+
+.side-card{
+	background: #db5605;
+}
+#about{
+	background: #262727;
+}
+
+#tools{
+	background: #262727;
+}
+
+.custom-border{
+	color:#262727;
 }
